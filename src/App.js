@@ -3,6 +3,7 @@ import Nav from "./Nav";
 let sum = 1;
 
 function App() {
+    
   const CountryArr = [
     {
         img : "https://raw.githubusercontent.com/am1rcek/countries/ca82aa76dc924d092ac4ab6b387f223c3e8e8381/img/afganistan.svg",
@@ -10,7 +11,7 @@ function App() {
         population : "81,770,900",
         region : "Europe",
         Capital : "Berlin",
-        id: 12,
+        id: 1,
     },
     {
         img : "https://raw.githubusercontent.com/am1rcek/countries/ca82aa76dc924d092ac4ab6b387f223c3e8e8381/img/germany.svg",

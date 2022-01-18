@@ -3,7 +3,7 @@ import "./CountryItemStyle.css";
 export default function ({arr}){
     return (
         arr.map(item => (
-            <li className="boxs">
+            <li key={item.id} className="boxs">
                 <div className="flugs-box">
                     <img className="flugs" src={item.img} alt="germany-flug-img" width="264px" height="160x"></img>
                         <div className="flugs-text">
