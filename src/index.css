@@ -18,3 +18,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bx-search{
+  position:absolute;  
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-box {
+  position: relative;
+}
